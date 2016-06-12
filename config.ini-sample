@@ -13,6 +13,7 @@ directives = img-src,style-src,frame-src
 [plugins.processors.xss]
 
 [plugins.logformats.simple]
+encoding = utf-8
 
 [plugins.output.text]
 filename = report.rst
